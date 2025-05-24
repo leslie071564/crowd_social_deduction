@@ -1,0 +1,15 @@
+You will be given an incomplete Mafia game log and the rules of the game.
+Your task is to deduce the identity of the Mafia member(s) and speculate whether the Mafia side wins the game at the end.
+
+[Mafia Game Rules]
+1. Among the players, 1 to 2 are designated mafia, and the rest are bystanders.
+2. Mafia members are aware of the roles of their fellow mafia members, while the bystanders do not know the identities of other players.
+3. The game alternates between nighttime and daytime. 
+    - During the nighttime, mafia members secretly communicate and decide on a player to kill.
+    - During the daytime, the player killed during the nighttime is announced and then all players engage in an open discussion.  After the discussion, all players vote publicly, and the person with the majority vote is eliminated.
+4. The mafia side wins by eliminating bystanders until the number of mafia is greater than or equal to that of the bystanders.  On the other hand, the goal of the bystanders was to identify and eliminate mafia members.  The bystander side wins if all mafia players are eliminated.
+
+Give your answer in the following form:
+- Mafia(s): (a comma-separated list of the members who are considered Mafia.)
+- Game outcome: (Mafia win or Mafia lose)
+- Reason: (short text description)
